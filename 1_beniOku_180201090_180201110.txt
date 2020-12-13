@@ -1,0 +1,19 @@
+# Proje Ozeti
+ Bu projede sıkıştırma algoritmalarından olan LZ77 ve deflate algoritmalarının kullanılması ve metin bazlı dosyanın sıkıştırılması amaçlanmaktadır. 
+
+# Programin calistirilmasi
+ Öncelikle proje dosyamızının bulundugu klasöre metin.txt dosyasını atıp derleyip çalıştırdığımızın zaman hem LZ77 algoritmasının sonucu hem de HUFFMAN algoritmasının sonucu ekrana basılıyor. Ayrıca LZ77 algoritması ile sıkıstırılan metin.txt dosyası kodlu.txt dosyasında sıkıstırılmıs olarak bulunmaktadır. Fakat Huffman algoritmasında bitsel islemleri dosyaya isleyemedigimiz icin onun sonucu sadece ekrana basılmaktadır.(Deflate algoritmasında LZSS algoritmasında bulunan blokları huffman ile entegre edemediğimiz için sadece HUFFMAN algoritmasını kullandık.)
+
+----programin çalışabilmesi için gerekli olan dosyalar:
+metin.txt
+ 
+# Projede kullanilan kutuphaneler
+#include <stdio.h>
+#include <stdint.h>
+#include <string.h>
+#include <stdlib.h>
+#include <dirent.h>
+ 
+ Cumali Toprak --> ogrenci no :180201090
+ Mustafa Çömez --> ogrenci no :180201110
+
